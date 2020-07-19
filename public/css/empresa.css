@@ -3939,8 +3939,6 @@ input[type=button].btn-block {
   background-color: transparent;
   border-color: transparent;
 }
-
-
 .nav-tabs .nav-link.active,
 .nav-tabs .nav-item.show .nav-link {
   color: #495057;
@@ -4344,6 +4342,9 @@ input[type=button].btn-block {
 .navbar-dark .navbar-text a:hover, .navbar-dark .navbar-text a:focus {
   color: #fff;
 }
+
+
+
 
 .card {
   position: relative;
@@ -10240,7 +10241,6 @@ header.masthead h1 {
  }
  
  .content-section-heading h2 {
-   
    font-size: 3rem;
  }
  
@@ -10591,9 +10591,68 @@ header.masthead h1 {
    color: #ecb807 !important;
  }
 #destaque{
-  background-color: rgb(78, 52, 148);
+  background-color: blue;
 }
 
-.container .dois{
-  background-color: blue;
+
+
+main {
+  margin: 48px;
+}
+
+main h4 {
+  font-weight: normal;
+  font-family: Roboto, sans-serif;
+
+  margin-bottom: 32px;
+}
+
+main .cards {
+  display: grid;
+  grid-template-columns:  1fr 1fr;
+  gap: 24px;
+}
+
+main .card img {
+  width: 100%;
+  height: 150px;
+
+
+
+  object-fit: cover;
+
+  border-radius: 8px 8px 0 0;
+}
+
+main .card h1 {
+  margin-top: 32px;
+
+  font-size: 36px;
+  line-height: 41px;
+  color: #322143;
+}
+main .card h2 {
+  margin-top: 20px;
+
+  font-size: 20px;
+  line-height: 41px;
+  color: #322143;
+}
+main .card h3 {
+  margin: 24px 0;
+
+  font-family: Roboto;
+  font-weight: bold;
+
+  font-size: 24px;
+  line-height: 34px;
+
+  color: var(--primary-color);
+}
+
+main .card p {
+  font-size: 16px;
+  line-height: 26px;
+
+  color: #6c6c80;
 }
