@@ -1,0 +1,16 @@
+{
+  "name": "zenviaexperience",
+  "version": "1.0.0",
+  "description": "Somos a Startup CompreDaFavela e através da análise dos objetivos de desenvolvimento sustentável - Agenda 2030 da ONU, indentificamos que no Brasil existem cerca de 13,6 milhões de pessoas morando em favelas onde 76% dos moradores da favela se sntem discriminadas e muitos deles acreditam que têm menos oportunidades por morarem por morarem nestes locais.",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^3.1.3",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.4"
+  }
+}
